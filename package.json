@@ -1,0 +1,29 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "JavaScript Implementation of classic minesweeper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinsswei/minesweeper.git"
+  },
+  "keywords": [
+    "Minesweeper",
+    "JavaScript",
+    "OOP"
+  ],
+  "author": "Robinss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinsswei/minesweeper/issues"
+  },
+  "homepage": "https://github.com/robinsswei/minesweeper#readme",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "requirejs": "^2.2.0",
+    "underscore": "^1.8.3"
+  }
+}

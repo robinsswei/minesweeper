@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Minesweeper</title>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+  <!-- JS Libaries -->
+  <script type="text/javascript" src="js/libs/jquery.min.js"></script>
+  <script type="text/javascript" src="js/libs/underscore-min.js"></script>
+  <script type="text/javascript" src="js/libs/require.js"></script>
+
+</head>
+<body>
+
+  <script type="text/javascript">
+    require(['config'], function(){
+      require(['js/Minesweeper']);
+    });
+  </script>
+</body>
+</html>
